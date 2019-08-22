@@ -8,19 +8,25 @@ body{
     opacity:0.8;
   }
   .jumbotron{
-    background:greenyellow;
+    background:#008ed6;
+  }
+  
+  .mapouter{
+    text-align:right;height:100%;width:100%;
+  }
+  .gmap_canvas {
+    overflow:hidden;background:none!important;height:1000px;width:100%;
   }
 
 #home-section{
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
-    min-height: 700px;
+    min-height: 500px;
   }
 
 #home-section .dark-overlay{
-  position: absolute;
-  top:0;
+  top:400;
   left:0;
   width:100%;
   min-height: 700px;

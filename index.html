@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="B2B">;
+  <meta name="keywords" content="CRM">;
+  <meta name="keywords" content="Data Privacy">;
+  <meta name="keywords" content="startups">;
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
@@ -14,10 +18,12 @@
   <!-- Font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Css link-->
   <link rel="stylesheet" href="style.css">
   <title>Assignment Bootstrap</title>
 </head>
+
 
 <body data-spy="scroll" data-target="#main-nav" id="home">
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
@@ -28,6 +34,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#hero" class="nav-link">Hero</a></li>
         <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="#explore-head-section" class="nav-link">Explore</a></li>
         <li class="nav-item"><a href="#create-head-section" class="nav-link">Create</a></li>
@@ -36,13 +43,18 @@
     </div>
   </div>
 </nav>
-
+<section id="hero">
+    <div class="jumbotron">
+        <img class="d-block w-100 h-60" src="http://blog.buildabazaar.com/wp-content/uploads/2018/05/The-3-Most-Effective-Channels-for-B2B-E-Commerce-Marketing.png" >
+  </div>
+</section>
 <!-- Home Section-->
 <header id="home-section">
+    
   <div class="dark-overlay">
     <div class="home-inner container">
       <div class="row">
-        <div class="col-lg-8 d-none d-lg-block">
+        <div class="col-lg-8 d-none d-lg-block ">
           <h1 class="display-4">Secure <strong>email hosting</strong> for your <strong>Business</strong></h1>
             <div class="d-inline-flex">
               <div class="p-4 align-self-start">
@@ -68,7 +80,8 @@
                 B2B chat data centers have top-notch security and surveillance, with 99.9% uptime. Your data is secure with encryption both at rest and end-to-end, along with S/MIME message encryption.
               </div>
             </div>
-        
+      
+            
         
         </div>
         <div class="col-lg-4">
@@ -99,6 +112,10 @@
     </div>
   </div>
 </header>
+
+
+    
+</section>
 
 <!-- EXPLORE -->
 <section id="explore-head-section">
@@ -215,7 +232,7 @@
           </div>
           <div class="p-4 align-self-end"> 
                Email with CRM
-              Integrate with Zoho CRM to manage your sales. Do more with other in-house and third party apps as well. </div>
+              Integrate with B2B CRM to manage your sales. Do more with other in-house and third party apps as well. </div>
         </div>
         <div class="d-flex">
           <div class="p-4 align-self-start">
@@ -237,6 +254,7 @@
   </div>
 </section>
 <!-- END EXPLORE Section-->
+
 <!-- Jumbotron -->
 <div class="jumbotron">
     <h1 class="display-4">B2B Platform</h1>
@@ -245,6 +263,8 @@
     <p>Jackson Vice President - Talent & Acquisition </p>
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </div>
+  
+  
 <!-- Carousel for putting images-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -254,13 +274,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="https://www.snipp.com/wp-content/uploads/2018/12/B2B-2018-title-img-457x258.png" alt="First slide">
+        <img class="d-block w-100 h-10" src="https://www.snipp.com/wp-content/uploads/2018/12/B2B-2018-title-img-457x258.png" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://www.zohowebstatic.com/sites/default/files/mail/home/security-image.png" alt="Second slide">
+        <img class="d-block w-100 h-10" src="https://www.zohowebstatic.com/sites/default/files/mail/home/security-image.png" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://www.zohowebstatic.com/sites/default/files/Basic_0.png" alt="Third slide">
+        <img class="d-block w-100 h-30" src="https://www.zohowebstatic.com/sites/default/files/Basic_0.png" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -274,13 +294,22 @@
   </div>
 
 
-<!-- Footer-->
+  <div class="mapouter align-self-center">
+    <div class="gmap_canvas center"><iframe width="100%" height="72%" id="gmap_canvas" src="https://www.google.com/maps/place/B2B/@12.9238152,77.6352946,19z/data=!4m8!1m2!2m1!1sB2B!3m4!1s0x0:0xd9633c2c597c50a3!8m2!3d12.9233126!4d77.6361195"
+        frameborder="0" scrolling="no" ></iframe></div>
+  </div>
+
+  <!-- Footer-->
 <footer id="main-footer" class="bg-dark">
   <div class="container">
     <div class="row">
       <div class="col text-center py-4">
-        <h3>SocialApp</h3>
-        <p>Copyright &copy; <span id="year"></span></p>
+        <h3>B2B Chat</h3>
+        <p>Copyright &copy; <span id="year">2019</span></p>
+       <p> Follow our Company in  
+        <button class="foot"><i class="fa fa-facebook"></i></button>
+        <button class="foot"><i class="fa fa-Linkedin"></i></button>
+        <button class="foot"><i class="fa fa-twitter"></i></button></p>
         <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contanct Us</button>
   </div></div></div>
 </footer>
@@ -317,10 +346,8 @@
   </div>
 </div>
 
-  <!-- Jquery Full -->
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-  <!-- PopperJS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
  <!--BootstrapJS -->
